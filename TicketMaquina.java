@@ -80,4 +80,16 @@ public class TicketMaquina
     {
         return total; 
     }
+    
+    public void fijarPrecio(int nuevoPrecio)
+    {
+        precio = nuevoPrecio;
+    }
+    
+    public void rapido()
+    {
+     System.out.println("##### Por favor, inserta la cantidad de dinero correcta #####");
+    }
 }
+
+
