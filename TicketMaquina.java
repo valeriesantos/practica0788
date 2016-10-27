@@ -90,6 +90,11 @@ public class TicketMaquina
     {
      System.out.println("##### Por favor, inserta la cantidad de dinero correcta #####");
     }
+    
+    public void mostrarPrecio()
+    {
+     System.out.println("##### El precio del billete es 300 euros ####");
+    }
 }
 
 
