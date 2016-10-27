@@ -23,9 +23,9 @@ public class TicketMaquina
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMaquina()
+    public TicketMaquina(int coste)
     {
-        precio = 800;
+        precio = coste;
         balance = 0;
         total = 0;
     }
@@ -95,6 +95,8 @@ public class TicketMaquina
     {
      System.out.println("##### El precio del billete es "+ precio +" euros ####");
     }
+    
+   
 }
 
 
